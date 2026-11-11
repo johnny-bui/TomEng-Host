@@ -144,7 +144,7 @@ let libHtml=lib.html();
 assert.match(libHtml,/12 chuyên mục/,'Host Library reports all twelve sections');
 assert.equal((libHtml.match(/class="category-tab /g)||[]).length,12,'all twelve main categories rendered as visible choices');
 assert.doesNotMatch(libHtml,/data-filter="all"/,'main category All tab removed');
-assert.match(libHtml,/class="category-tab selected" data-filter="rooms"/,'Library defaults to first real category');
+assert.match(libHtml,/class="category-tab selected" data-filter="everyday"/,'Library defaults to first real category');
 assert.equal((libHtml.match(/class="subcategory-group"/g)||[]).length,1,'only the chosen category child group is shown');
 assert.ok(libHtml.indexOf('class="library-results-toolbar"')>libHtml.indexOf('class="category-filter"'),'view-mode control belongs to card results');
 assert.ok(libHtml.indexOf('class="view-switch"')>libHtml.indexOf('class="library-results-toolbar"'),'segmented display selector renders with cards');
@@ -164,7 +164,7 @@ assert.match(libHtml,/air conditioner/i,'search reaches Maintenance while previo
 assert.doesNotMatch(libHtml,/class="subcategory-panel"/,'search does not display the full hierarchy of subgroups');
 lib.handlers.input({target:{id:'global-search',value:''}});
 lib.click({viewMode:'phrases'});
-assert.match(lib.html(),/class="category-tab selected" data-filter="rooms"/,'clear search restores first real category');
+assert.match(lib.html(),/class="category-tab selected" data-filter="everyday"/,'clear search restores first real category');
 const responsiveCss=fs.readFileSync(path.join(root,'style.css'),'utf8');
 assert.match(responsiveCss,/\.category-grid,\.more-grid,\.grammar-grid,\.phrase-grid,\.pattern-grid,\.progress-cards,\.quick-stats/,'mobile content grids consistently use one card per row');
 assert.match(responsiveCss,/\.topbar \.search input\{min-width:0;flex:1;width:100%;font-size:16px/,'iPhone search input avoids zoom and fills row');
