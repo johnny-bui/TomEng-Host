@@ -169,4 +169,22 @@ const responsiveCss=fs.readFileSync(path.join(root,'style.css'),'utf8');
 assert.match(responsiveCss,/\.category-grid,\.more-grid,\.grammar-grid,\.phrase-grid,\.pattern-grid,\.progress-cards,\.quick-stats/,'mobile content grids consistently use one card per row');
 assert.match(responsiveCss,/\.topbar \.search input\{min-width:0;flex:1;width:100%;font-size:16px/,'iPhone search input avoids zoom and fills row');
 
+
+const cleanLibrary = boot();
+cleanLibrary.click({ page:'library' });
+const cleanLibraryHtml = cleanLibrary.html();
+assert.doesNotMatch(cleanLibraryHtml, /<section class="library-toolbar"/, 'Library has no backup/import toolbar');
+assert.doesNotMatch(cleanLibraryHtml, /<article class="phrase-card"[^>]*><div class="meta">/, 'phrase cards omit repeated classification headings');
+assert.match(cleanLibraryHtml, /class="library-results-toolbar"/, 'card display selector stays near phrase results');
+cleanLibrary.click({page:'rescue'});
+assert.doesNotMatch(cleanLibrary.html(), /<article class="rescue-card"><div class="eyebrow">/, 'rescue cards do not repeat section/category headers');
+cleanLibrary.click({page:'grammar'});
+assert.doesNotMatch(cleanLibrary.html(), /<article class="grammar-card"><div class="eyebrow">/, 'tips cards do not repeat grammar group heading');
+cleanLibrary.click({page:'more'});
+assert.match(cleanLibrary.html(), /class="category-grid more-grid"/, 'More page uses distinct shortcut grid');
+cleanLibrary.click({page:'progress'});
+assert.match(cleanLibrary.html(), /data-action="export"/, 'backup remains accessible in Progress, though removed from Library');
+const moreCss = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
+assert.match(moreCss, /\.more-grid\{grid-template-columns:repeat\(2,minmax\(0,1fr\)\)!important/, 'mobile More shortcuts use two columns');
+assert.match(moreCss, /\.category-grid,\.more-grid,\.grammar-grid,\.phrase-grid,\.pattern-grid,\.progress-cards,\.quick-stats\{/, 'other content grids retain single column mobile rule');
 console.log('PASS: isolated storage, learning/recall/application flow, persistence, next-day review, Host-only backup import and rollback-safe Host catalog migration');
