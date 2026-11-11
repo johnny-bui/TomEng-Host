@@ -20,7 +20,7 @@ const sandbox = {
   },
   caches: {
     open: async () => hostCache,
-    keys: async () => ['tomeng-v15-native', 'tomenghost-v0', 'another-app-cache'],
+    keys: async () => ['tomeng-v15-native', 'tomenghost-v0', 'tomenghost-v1', 'another-app-cache'],
     delete: async key => { deleted.push(key); return true; },
     match: async key => key === './index.html' ? { offlineShell: true } : null
   },
@@ -40,7 +40,7 @@ vm.runInNewContext(source, sandbox);
 
   handlers.activate({ waitUntil: promise => { pending = promise; } });
   await pending;
-  assert.deepEqual(deleted, ['tomenghost-v0'], 'Host worker deletes only its own previous cache family');
+  assert.deepEqual(deleted, ['tomenghost-v0', 'tomenghost-v1'], 'Host worker deletes only its own previous cache family');
   assert.ok(claimed);
 
   networkOffline = true;
@@ -56,9 +56,9 @@ vm.runInNewContext(source, sandbox);
   assert.equal(manifest.id, './');
   assert.match(manifest.name, /^TomEng Host/);
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-  assert.match(index, /sw\.js\?v=1\.0\.0-host/);
+  assert.match(index, /sw\.js\?v=1\.0\.1-host/);
   assert.doesNotMatch(index, /legacy-lesson-plan|legacy-v2-fingerprint/);
-  assert.match(source, /const CACHE = 'tomenghost-v1'/);
+  assert.match(source, /const CACHE = 'tomenghost-v2'/);
   assert.match(source, /key\.startsWith\('tomenghost-'\)/);
   assert.ok(fs.existsSync(path.join(root, 'logo-host.svg')));
   console.log('PASS: unique PWA identity, shell assets, offline fallback, update version and cross-app cache isolation');
