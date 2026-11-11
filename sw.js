@@ -1,4 +1,4 @@
-const CACHE = 'tomenghost-v2';
+const CACHE = 'tomenghost-v3';
 const SHELL = ['./','./index.html','./style.css','./app.js','./data.js','./meta.js','./manifest.webmanifest','./logo-host.svg','./host-icon-192.png','./host-icon-512.png'];
 self.addEventListener('install',(event)=>event.waitUntil(caches.open(CACHE).then((cache)=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',(event)=>event.waitUntil(caches.keys().then((keys)=>Promise.all(keys.filter((key)=>key.startsWith('tomenghost-')&&key!==CACHE).map((key)=>caches.delete(key)))).then(()=>self.clients.claim())));
