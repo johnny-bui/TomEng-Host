@@ -58,7 +58,7 @@ vm.runInNewContext(source, sandbox);
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   assert.match(index, /sw\.js\?v=1\.0\.1-host/);
   assert.doesNotMatch(index, /legacy-lesson-plan|legacy-v2-fingerprint/);
-  assert.match(source, /const CACHE = 'tomenghost-v1'/);
+  assert.match(source, /const CACHE = 'tomenghost-v2'/);
   assert.match(source, /key\.startsWith\('tomenghost-'\)/);
   assert.ok(fs.existsSync(path.join(root, 'logo-host.svg')));
   console.log('PASS: unique PWA identity, shell assets, offline fallback, update version and cross-app cache isolation');
