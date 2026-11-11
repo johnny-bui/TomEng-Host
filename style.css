@@ -217,3 +217,22 @@ body{font-family:var(--sans);line-height:1.5}
   .library-toolbar .library-tool{padding-inline:8px}
   .category-tabs .category-tab{font-size:10px;padding-inline:8px}
 }
+
+/* Compact mobile More shortcuts; repeated category labels removed from card content. */
+.rescue-card h3{margin-top:0}
+.grammar-card h3{margin-top:0}
+.pattern-card h3{margin-top:0}
+.phrase-card h3{margin-top:8px}
+@media(max-width:720px){
+  /* More is a shortcut menu: two per row. Other content cards remain one per row. */
+  .more-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px}
+  .more-grid .category-card{display:flex;flex-direction:column;justify-content:center;min-height:144px;min-width:0;padding:14px;border-radius:16px}
+  .more-grid .category-card h3{font-size:18px;line-height:1.16;margin:0 0 10px;overflow-wrap:anywhere}
+  .more-grid .category-card p{max-width:none;font-size:11px;line-height:1.45;overflow-wrap:anywhere}
+}
+@media(max-width:360px){
+  .more-grid{gap:8px}
+  .more-grid .category-card{padding:12px;min-height:146px}
+  .more-grid .category-card h3{font-size:17px}
+  .more-grid .category-card p{font-size:10px}
+}
