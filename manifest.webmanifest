@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "TomEng Host — English for better stays",
+  "short_name": "TomEng Host",
+  "description": "Sổ tay tiếng Anh thực tế cho chủ nhà và nhân viên vận hành căn hộ dịch vụ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#efede6",
+  "theme_color": "#e8675a",
+  "icons": [
+    { "src": "host-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "host-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

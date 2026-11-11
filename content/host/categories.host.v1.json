@@ -1,0 +1,98 @@
+[
+  {
+    "id": "everyday",
+    "name": "Đời sống hằng ngày",
+    "count": 500,
+    "description": "Ăn uống, mua sắm, đi lại, gia đình, sức khỏe, hẹn lịch và cảm nhận",
+    "icon": "coffee",
+    "priority": 1
+  },
+  {
+    "id": "reflex",
+    "name": "Nghe hiểu & phản xạ",
+    "count": 125,
+    "description": "Hỏi lại, xác nhận, xin thời gian suy nghĩ khi không nghe kịp",
+    "icon": "ear",
+    "priority": 2
+  },
+  {
+    "id": "rooms",
+    "name": "Phòng, giá & tình trạng trống",
+    "count": 60,
+    "description": "Tư vấn loại phòng, tiện nghi, giá theo đêm hoặc tháng và lịch xem phòng.",
+    "icon": "book",
+    "priority": 3
+  },
+  {
+    "id": "booking",
+    "name": "Đặt phòng & xác nhận",
+    "count": 60,
+    "description": "Tiếp nhận yêu cầu, xác nhận chi tiết, thay đổi lịch và gửi hướng dẫn trước chuyến đi.",
+    "icon": "bookmark",
+    "priority": 4
+  },
+  {
+    "id": "checkin",
+    "name": "Đến nơi, check-in & check-out",
+    "count": 60,
+    "description": "Hướng dẫn vào tòa nhà, nhận chìa khóa, Wi-Fi, giờ nhận và trả phòng.",
+    "icon": "home",
+    "priority": 5
+  },
+  {
+    "id": "housekeeping",
+    "name": "Dọn phòng & đồ dùng",
+    "count": 55,
+    "description": "Đổi lịch dọn, bổ sung khăn ga, giặt ủi và xử lý yêu cầu trong phòng.",
+    "icon": "spark",
+    "priority": 6
+  },
+  {
+    "id": "maintenance",
+    "name": "Bảo trì & sự cố kỹ thuật",
+    "count": 60,
+    "description": "Tiếp nhận lỗi máy lạnh, nước nóng, điện, Internet, khóa và điều phối kỹ thuật viên.",
+    "icon": "settings",
+    "priority": 7
+  },
+  {
+    "id": "complaints",
+    "name": "Phản hồi & giải quyết phàn nàn",
+    "count": 60,
+    "description": "Lắng nghe, xin lỗi phù hợp, hỏi chi tiết, đưa phương án và hẹn cập nhật.",
+    "icon": "lifebuoy",
+    "priority": 8
+  },
+  {
+    "id": "billing",
+    "name": "Tiền thuê, đặt cọc & hóa đơn",
+    "count": 55,
+    "description": "Trao đổi tiền phòng, phương thức thanh toán, biên nhận, gia hạn và khoản cọc.",
+    "icon": "copy",
+    "priority": 9
+  },
+  {
+    "id": "safety",
+    "name": "An toàn & nội quy tòa nhà",
+    "count": 55,
+    "description": "Xử lý mất chìa khóa, tiếng ồn, khách thăm, an toàn khẩn cấp và quy định chung.",
+    "icon": "shield",
+    "priority": 10
+  },
+  {
+    "id": "team",
+    "name": "Phối hợp nhân viên & nhà cung cấp",
+    "count": 55,
+    "description": "Giao việc rõ ràng cho lễ tân, buồng phòng, bảo vệ, kỹ thuật và nhà cung cấp.",
+    "icon": "users",
+    "priority": 11
+  },
+  {
+    "id": "messaging",
+    "name": "Tin nhắn, điện thoại & hiếu khách",
+    "count": 55,
+    "description": "Trả lời nhanh qua chat, gọi lại, chia sẻ chỉ dẫn và trò chuyện thân thiện với khách.",
+    "icon": "message",
+    "priority": 12
+  }
+]

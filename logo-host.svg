@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">TomEng Host</title>
+  <rect x="5" y="5" width="118" height="118" rx="32" fill="#2d3930"/>
+  <path d="M28 55 64 28l36 27v45a7 7 0 0 1-7 7H35a7 7 0 0 1-7-7z" fill="#f5f0e5"/>
+  <path d="M48 106V71a16 16 0 0 1 32 0v35" fill="#e8675a"/>
+  <circle cx="72" cy="87" r="2.8" fill="#f5f0e5"/>
+  <path d="M42 57h14V45H42zm30-12v12h14V55l-14-10z" fill="#d6dfcc"/>
+  <path d="M98 34h13v18H98z" rx="4" fill="#e4c76e"/>
+</svg>

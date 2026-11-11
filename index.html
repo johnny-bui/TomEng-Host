@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e8675a">
+  <meta name="color-scheme" content="light">
+  <meta name="application-name" content="TomEng Host">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="Sổ tay tiếng Anh thực tế cho chủ nhà và nhân viên vận hành căn hộ dịch vụ.">
+  <title>TomEng Host — English for better stays</title>
+  <link rel="icon" type="image/svg+xml" href="logo-host.svg">
+  <link rel="apple-touch-icon" href="host-icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app" class="app-shell"></div>
+  <div id="modal-root"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script>
+  <script src="meta.js"></script>
+  <script src="app.js"></script>
+  <script>if('serviceWorker' in navigator && location.protocol.startsWith('http')) { navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload(),{once:true}); navigator.serviceWorker.register('./sw.js?v=1.0.0-host',{updateViaCache:'none'}).catch(()=>{}); }</script>
+</body>
+</html>

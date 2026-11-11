@@ -1,0 +1,56 @@
+name: TomEng Host quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Check JavaScript syntax
+        run: node --check app.js && node --check sw.js
+      - name: Test learning engine and migrations
+        run: node tests/engine.test.cjs
+      - name: Test PWA shell and cache migration assets
+        run: node tests/pwa.test.cjs
+      - name: Test Host phrase data and scenario map
+        run: python3 tests/content.test.py
+      - name: Regenerate catalog and verify generated files
+        run: python3 content/host/build_host_content.py && git diff --exit-code -- data.js meta.js content/host/*.host.v1.json content/host/SCENARIO_MAPPING_HOST_V1.csv content/host/PREVIEW_14_DAYS.md
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Prepare standalone app shell
+        run: |
+          mkdir _site
+          cp index.html style.css app.js data.js meta.js manifest.webmanifest sw.js logo-host.svg host-icon-192.png host-icon-512.png _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

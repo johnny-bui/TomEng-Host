@@ -1,0 +1,259 @@
+day,lesson_id,category,subcategory,scenario_id,title,candidate_ids,phrase_count
+1,day-001,rooms,rooms-flow-1,rooms-01,Tìm studio theo tuần,p011 p012 p013 p014 p015,5
+2,day-002,booking,booking-flow-1,booking-01,Xác nhận booking cuối tuần,p071 p072 p073 p074 p075,5
+3,day-003,checkin,checkin-flow-1,checkin-01,Hướng dẫn từ sảnh lên phòng,p131 p132 p133 p134 p135,5
+4,day-004,housekeeping,housekeeping-flow-1,housekeeping-01,Đổi giờ dọn phòng,p255 p260 p263 p264 p266,5
+5,day-005,maintenance,maintenance-flow-1,maintenance-01,Máy lạnh không mát,p389 p391 p392 p395 p397,5
+6,day-006,complaints,complaints-flow-1,complaints-01,Phòng chưa được dọn sạch,p531 p533 p537 p539 p541,5
+7,day-007,billing,billing-flow-1,billing-01,Nhắc tiền thuê tháng,p674 p675 p680 p683 p684,5
+8,day-008,safety,safety-flow-1,safety-01,Báo tiếng ồn sau giờ yên tĩnh,p806 p809 p811 p812 p815,5
+9,day-009,team,team-flow-1,team-01,Giao ca dọn phòng,p938 p939 p940 p943 p948,5
+10,day-010,messaging,messaging-flow-1,messaging-01,Trả lời khách hỏi giờ đến,p1067 p1071 p1073 p1076 p1078,5
+11,day-011,everyday,casual-check-in,casual-small-talk-01-01,Bắt chuyện về cuối tuần và thời tiết,p151 p159 p195 p201 p237,5
+12,day-012,reflex,,legacy-core-01,Tự tin trong cuộc họp,p001 p002 p003 p004 p005,5
+13,day-013,rooms,rooms-flow-1,rooms-02,Báo phòng một phòng ngủ,p016 p017 p018 p019 p020,5
+14,day-014,booking,booking-flow-1,booking-02,Gửi mã xác nhận,p076 p077 p078 p079 p080,5
+15,day-015,checkin,checkin-flow-1,checkin-02,Gửi mã cửa chính,p136 p137 p138 p139 p140,5
+16,day-016,housekeeping,housekeeping-flow-2,housekeeping-02,Xin thêm khăn tắm,p268 p272 p274 p275 p277,5
+17,day-017,maintenance,maintenance-flow-2,maintenance-02,Nước nóng không hoạt động,p399 p401 p406 p407 p409,5
+18,day-018,complaints,complaints-flow-1,complaints-02,Tiếng ồn vào buổi tối,p543 p546 p547 p549 p552,5
+19,day-019,billing,billing-flow-1,billing-02,Khách hỏi cách thanh toán,p686 p688 p692 p694 p695,5
+20,day-020,safety,safety-flow-2,safety-02,Khách thăm chưa đăng ký,p817 p819 p821 p826 p827,5
+21,day-021,team,team-flow-1,team-02,Nhờ kiểm tra phòng trống,p949 p951 p953 p957 p959,5
+22,day-022,messaging,messaging-flow-1,messaging-02,Gọi lại khách nhỡ cuộc gọi,p1081 p1083 p1084 p1086 p1090,5
+23,day-023,everyday,family-check-ins,family-social-chat-01-01,Cập nhật chuyện gia đình và trải nghiệm,p180 p190 p223 p232 p265,5
+24,day-024,reflex,,legacy-core-02,Nghe rõ và hỏi lại,p006 p007 p008 p009 p010,5
+25,day-025,rooms,rooms-flow-2,rooms-03,Tư vấn lưu trú theo tháng,p021 p022 p023 p024 p025,5
+26,day-026,booking,booking-flow-2,booking-03,Đổi ngày đến,p081 p082 p083 p084 p085,5
+27,day-027,checkin,checkin-flow-1,checkin-03,Tìm đúng tầng và căn hộ,p141 p142 p143 p144 p145,5
+28,day-028,housekeeping,housekeeping-flow-2,housekeeping-03,Bổ sung giấy vệ sinh,p281 p282 p285 p287 p291,5
+29,day-029,maintenance,maintenance-flow-1,maintenance-03,Wi-Fi chập chờn,p410 p416 p418 p419 p420,5
+30,day-030,complaints,complaints-flow-2,complaints-03,Phòng khác với ảnh đăng,p556 p557 p560 p562 p565,5
+31,day-031,billing,billing-flow-3,billing-03,Gửi hóa đơn công ty,p697 p701 p702 p705 p707,5
+32,day-032,safety,safety-flow-2,safety-03,Mất chìa khóa ngoài giờ,p829 p830 p836 p838 p839,5
+33,day-033,team,team-flow-2,team-03,Điều phối giao khăn ga,p961 p963 p966 p967 p969,5
+34,day-034,messaging,messaging-flow-2,messaging-03,Nhắn địa chỉ cho tài xế,p1092 p1094 p1095 p1100 p1103,5
+35,day-035,everyday,office-help,workplace-help-01-01,Nhờ giúp xử lý một vấn đề,p158 p186 p198 p228 p240,5
+36,day-036,reflex,,legacy-core-30,Phản xạ hội thoại tự nhiên,p146 p147 p148 p149 p150,5
+37,day-037,rooms,rooms-flow-1,rooms-04,Tìm phòng yên tĩnh,p026 p027 p028 p029 p030,5
+38,day-038,booking,booking-flow-2,booking-04,Đổi ngày trả phòng,p086 p087 p088 p089 p090,5
+39,day-039,checkin,checkin-flow-2,checkin-04,Khách đến trước giờ nhận phòng,p153 p154 p155 p156 p157,5
+40,day-040,housekeeping,housekeeping-flow-2,housekeeping-04,Xin thêm chăn,p293 p294 p298 p300 p302,5
+41,day-041,maintenance,maintenance-flow-3,maintenance-04,Ổ điện không hoạt động,p424 p426 p428 p430 p434,5
+42,day-042,complaints,complaints-flow-2,complaints-04,Phí chưa rõ trên hóa đơn,p566 p573 p574 p575 p576,5
+43,day-043,billing,billing-flow-1,billing-04,Xác nhận đã nhận tiền cọc,p711 p713 p714 p718 p720,5
+44,day-044,safety,safety-flow-1,safety-04,Không mở được cổng chính,p840 p844 p846 p848 p850,5
+45,day-045,team,team-flow-1,team-04,Báo bảo vệ hỗ trợ khách đến,p972 p976 p977 p980 p982,5
+46,day-046,messaging,messaging-flow-2,messaging-04,Cập nhật phòng đang được chuẩn bị,p1104 p1106 p1108 p1112 p1114,5
+47,day-047,everyday,urgent-assistance,health-support-01-01,Tìm hỗ trợ khi không khỏe,p194 p184 p235 p226 p278,5
+48,day-048,reflex,ask-for-clarification,reflex-clarity-01-01,Giữ cuộc trao đổi khi cần hỏi lại,p152 p164 p174 p183 p193,5
+49,day-049,rooms,rooms-flow-3,rooms-05,Tìm phòng có bếp nhỏ,p031 p032 p033 p034 p035,5
+50,day-050,booking,booking-flow-2,booking-05,Thêm khách vào booking,p091 p092 p093 p094 p095,5
+51,day-051,checkin,checkin-flow-2,checkin-05,Khách đến sau nửa đêm,p162 p163 p166 p168 p171,5
+52,day-052,housekeeping,housekeeping-flow-2,housekeeping-05,Đổi ga giường,p304 p308 p309 p310 p313,5
+53,day-053,maintenance,maintenance-flow-2,maintenance-05,Khóa cửa khó mở,p435 p437 p441 p443 p446,5
+54,day-054,complaints,complaints-flow-1,complaints-05,Khăn có vết bẩn,p577 p582 p583 p586 p588,5
+55,day-055,billing,billing-flow-3,billing-05,Hỏi thời gian hoàn cọc,p722 p724 p728 p729 p730,5
+56,day-056,safety,safety-flow-2,safety-05,Khách hỏi quy định hút thuốc,p854 p855 p857 p861 p863,5
+57,day-057,team,team-flow-2,team-05,Hẹn thợ kiểm tra khóa,p985 p986 p993 p994 p995,5
+58,day-058,messaging,messaging-flow-3,messaging-05,Báo quán ăn gần căn hộ,p1115 p1117 p1121 p1122 p1125,5
+59,day-059,everyday,food-ordering,food-order-01-01,Đặt món và chốt yêu cầu,p160 p203 p245 p286 p328,5
+60,day-060,reflex,ask-for-clarification,reflex-clarity-01-02,Giữ cuộc trao đổi khi cần hỏi lại,p362 p374 p384 p393 p403,5
+61,day-061,rooms,rooms-flow-3,rooms-06,Hỏi phòng dễ tiếp cận,p036 p037 p038 p039 p040,5
+62,day-062,booking,booking-flow-3,booking-06,Ghi nhận yêu cầu giường phụ,p096 p097 p098 p099 p100,5
+63,day-063,checkin,checkin-flow-1,checkin-06,Hỏi mật khẩu Wi-Fi,p172 p176 p179 p181 p182,5
+64,day-064,housekeeping,housekeeping-flow-1,housekeeping-06,Khách không muốn dọn hôm nay,p318 p319 p321 p323 p327,5
+65,day-065,maintenance,maintenance-flow-3,maintenance-06,Vòi nước bị rò,p448 p451 p453 p454 p456,5
+66,day-066,complaints,complaints-flow-1,complaints-06,Mùi lạ trong phòng,p591 p592 p596 p599 p601,5
+67,day-067,billing,billing-flow-3,billing-06,Gia hạn hợp đồng thêm một tháng,p733 p738 p739 p741 p743,5
+68,day-068,safety,safety-flow-2,safety-06,Khách để quên đồ ở sảnh,p866 p868 p871 p873 p874,5
+69,day-069,team,team-flow-2,team-06,Nhờ kỹ thuật kiểm tra điều hòa,p996 p997 p1002 p1003 p1006,5
+70,day-070,messaging,messaging-flow-1,messaging-06,Trả lời khách hỏi gửi đồ,p1127 p1131 p1133 p1134 p1138,5
+71,day-071,everyday,cafe-drinks,cafe-order-01-01,Gọi đồ uống theo ý mình,p161 p204 p247 p289 p330,5
+72,day-072,reflex,ask-for-clarification,reflex-clarity-01-03,Giữ cuộc trao đổi khi cần hỏi lại,p572 p584 p594 p603 p613,5
+73,day-073,rooms,rooms-flow-3,rooms-07,Tìm chỗ làm việc trong phòng,p041 p042 p043 p044 p045,5
+74,day-074,booking,booking-flow-3,booking-07,Gửi chính sách hủy,p101 p102 p103 p104 p105,5
+75,day-075,checkin,checkin-flow-2,checkin-07,Khách cần hỗ trợ hành lý,p185 p187 p189 p191 p196,5
+76,day-076,housekeeping,housekeeping-flow-1,housekeeping-07,Xin dọn nhanh trước cuộc gọi,p329 p331 p333 p336 p337,5
+77,day-077,maintenance,maintenance-flow-3,maintenance-07,Thang máy dừng ở một tầng,p460 p462 p464 p465 p470,5
+78,day-078,complaints,complaints-flow-2,complaints-07,Wi-Fi chậm khi họp,p602 p605 p607 p609 p611,5
+79,day-079,billing,billing-flow-1,billing-07,Tính phí ở thêm một đêm,p747 p749 p751 p753 p756,5
+80,day-080,safety,safety-flow-3,safety-07,Ngửi thấy mùi khét,p876 p880 p882 p884 p885,5
+81,day-081,team,team-flow-1,team-07,Giao việc bổ sung đồ phòng,p1008 p1011 p1012 p1016 p1019,5
+82,day-082,messaging,messaging-flow-2,messaging-07,Nhắn xác nhận đã nhận yêu cầu,p1140 p1142 p1144 p1148 p1149,5
+83,day-083,everyday,restaurant-seating,restaurant-seating-01-01,Tìm bàn phù hợp,p165 p205 p248 p290 p332,5
+84,day-084,reflex,ask-for-clarification,reflex-clarity-01-04,Giữ cuộc trao đổi khi cần hỏi lại,p782 p794 p804 p813 p823,5
+85,day-085,rooms,rooms-flow-2,rooms-08,Báo phòng cho một người ở dài hạn,p046 p047 p048 p049 p050,5
+86,day-086,booking,booking-flow-3,booking-08,Xác nhận khách đến muộn,p106 p107 p108 p109 p110,5
+87,day-087,checkin,checkin-flow-2,checkin-08,Khách muốn gửi hành lý sớm,p197 p199 p200 p206 p208,5
+88,day-088,housekeeping,housekeeping-flow-3,housekeeping-08,Hỏi lịch giặt ủi,p339 p342 p346 p347 p350,5
+89,day-089,maintenance,maintenance-flow-1,maintenance-08,Tủ lạnh không lạnh,p473 p474 p476 p478 p482,5
+90,day-090,complaints,complaints-flow-2,complaints-08,Khách phải chờ check-in,p616 p617 p619 p620 p626,5
+91,day-091,billing,billing-flow-2,billing-08,Chia hóa đơn theo kỳ,p757 p759 p762 p766 p767,5
+92,day-092,safety,safety-flow-3,safety-08,Báo nước tràn ra hành lang,p890 p893 p894 p896 p898,5
+93,day-093,team,team-flow-2,team-08,Xác nhận nhà cung cấp giao hàng,p1021 p1022 p1025 p1027 p1029,5
+94,day-094,messaging,messaging-flow-2,messaging-08,Xin lỗi vì phản hồi chậm,p1150 p1153 p1158 p1159 p1161,5
+95,day-095,everyday,grocery-shopping,grocery-delivery-01-01,Mua và theo dõi đơn hàng tạp hóa,p167 p192 p207 p234 p251,5
+96,day-096,reflex,ask-for-clarification,reflex-clarity-01-05,Giữ cuộc trao đổi khi cần hỏi lại,p992 p1004 p1014 p1023 p1033,5
+97,day-097,rooms,rooms-flow-1,rooms-09,Tìm phòng cho gia đình nhỏ,p051 p052 p053 p054 p055,5
+98,day-098,booking,booking-flow-1,booking-09,Xử lý khách chưa nhận email,p111 p112 p113 p114 p115,5
+99,day-099,checkin,checkin-flow-3,checkin-09,Gia hạn trả phòng thêm một giờ,p209 p210 p214 p216 p218,5
+100,day-100,housekeeping,housekeeping-flow-2,housekeeping-09,Báo thiếu đồ dùng,p352 p355 p356 p363 p364,5
+101,day-101,maintenance,maintenance-flow-1,maintenance-09,Đèn phòng tắm bị hỏng,p484 p485 p487 p491 p492,5
+102,day-102,complaints,complaints-flow-1,complaints-09,Thiếu vật dụng trong bếp,p628 p629 p630 p634 p636,5
+103,day-103,billing,billing-flow-1,billing-09,Khách báo đã chuyển khoản,p770 p772 p775 p776 p783,5
+104,day-104,safety,safety-flow-1,safety-09,Khách thấy người lạ ở tầng,p902 p904 p905 p907 p911,5
+105,day-105,team,team-flow-3,team-09,Bàn giao yêu cầu còn dang dở,p1031 p1036 p1037 p1039 p1040,5
+106,day-106,messaging,messaging-flow-3,messaging-09,Hỏi thăm khách sau đêm đầu,p1163 p1167 p1169 p1171 p1173,5
+107,day-107,everyday,clothes-shopping,clothing-purchase-01-01,Mua quần áo và kiểm tra khoản thanh toán,p169 p170 p211 p213 p253,5
+108,day-108,reflex,buy-time,reflex-clarity-02-01,Giữ cuộc trao đổi khi cần hỏi lại,p202 p212 p221 p230 p239,5
+109,day-109,rooms,rooms-flow-3,rooms-10,Hỏi phòng có ban công,p056 p057 p058 p059 p060,5
+110,day-110,booking,booking-flow-3,booking-10,Ghi nhận yêu cầu tầng cao,p116 p117 p118 p119 p120,5
+111,day-111,checkin,checkin-flow-3,checkin-10,Nhắc giờ trả phòng,p220 p224 p225 p227 p231,5
+112,day-112,housekeeping,housekeeping-flow-2,housekeeping-10,Xin thêm gối,p365 p366 p367 p372 p373,5
+113,day-113,maintenance,maintenance-flow-1,maintenance-10,Máy giặt không xả nước,p495 p497 p501 p503 p504,5
+114,day-114,complaints,complaints-flow-2,complaints-10,Điều hòa quá ồn,p638 p640 p644 p645 p647,5
+115,day-115,billing,billing-flow-3,billing-10,Điều chỉnh ngày thanh toán,p784 p785 p786 p787 p792,5
+116,day-116,safety,safety-flow-2,safety-10,Hỏi quy định khu vực hồ bơi,p912 p915 p917 p921 p923,5
+117,day-117,team,team-flow-1,team-10,Chốt danh sách phòng cần kiểm tra,p1046 p1048 p1049 p1050 p1054,5
+118,day-118,messaging,messaging-flow-1,messaging-10,Chúc khách chuyến đi vui vẻ,p1176 p1177 p1179 p1182 p1186,5
+119,day-119,everyday,asking-directions,travel-arrival-01-01,Di chuyển và xử lý yêu cầu khi đi xa,p173 p175 p177 p215 p217,5
+120,day-120,reflex,buy-time,reflex-clarity-02-02,Giữ cuộc trao đổi khi cần hỏi lại,p412 p422 p431 p440 p449,5
+121,day-121,rooms,rooms-flow-2,rooms-11,Kiểm tra phòng cho khách có thú cưng,p061 p062 p063 p064 p065,5
+122,day-122,booking,booking-flow-1,booking-11,Gửi hướng dẫn trước ngày đến,p121 p122 p123 p124 p125,5
+123,day-123,checkin,checkin-flow-2,checkin-11,Khách làm mất thẻ phòng,p233 p236 p238 p241 p243,5
+124,day-124,housekeeping,housekeeping-flow-1,housekeeping-11,Sắp lịch dọn cho khách dài hạn,p376 p378 p381 p382 p386,5
+125,day-125,maintenance,maintenance-flow-3,maintenance-11,Mất điện trong căn hộ,p508 p510 p512 p514 p518,5
+126,day-126,complaints,complaints-flow-2,complaints-11,Nước nóng không ổn định,p651 p653 p656 p658 p661,5
+127,day-127,billing,billing-flow-2,billing-11,Tổng kết chi phí khi trả phòng,p793 p796 p798 p801 p802,5
+128,day-128,safety,safety-flow-3,safety-11,Mất điện khu vực chung,p924 p928 p930 p932 p934,5
+129,day-129,team,team-flow-3,team-11,Nhờ nhân viên xác nhận vật thất lạc,p1056 p1058 p1060 p1064 p1065,5
+130,day-130,messaging,messaging-flow-3,messaging-11,Xác nhận đã gửi hướng dẫn,p1187 p1190 p1192 p1195 p1196,5
+131,day-131,everyday,making-plans,social-plans-01-01,Rủ bạn và chốt kế hoạch,p178 p222 p262 p305 p338,5
+132,day-132,reflex,buy-time,reflex-clarity-02-03,Giữ cuộc trao đổi khi cần hỏi lại,p622 p632 p641 p650 p659,5
+133,day-133,rooms,rooms-flow-1,rooms-12,Tìm chỗ ở gần khu văn phòng,p066 p067 p068 p069 p070,5
+134,day-134,booking,booking-flow-2,booking-12,Sửa thông tin người nhận hóa đơn,p126 p127 p128 p129 p130,5
+135,day-135,checkin,checkin-flow-1,checkin-12,Giải thích đường vào bãi xe,p244 p246 p250 p252 p254,5
+136,day-136,maintenance,maintenance-flow-3,maintenance-12,Báo khói kêu liên tục,p519 p520 p523 p528 p529,5
+137,day-137,complaints,complaints-flow-3,complaints-12,Yêu cầu hoàn tiền một khoản phí,p663 p664 p666 p670 p672,5
+138,day-138,everyday,appointments-times,appointments-01-01,Đặt hoặc đổi lịch hẹn,p188 p229 p271 p314 p340,5
+139,day-139,reflex,buy-time,reflex-clarity-02-04,Giữ cuộc trao đổi khi cần hỏi lại,p832 p842 p851 p860 p869,5
+140,day-140,everyday,casual-check-in,casual-small-talk-01-02,Bắt chuyện về cuối tuần và thời tiết,p361 p369 p405 p411 p447,5
+141,day-141,reflex,buy-time,reflex-clarity-02-05,Giữ cuộc trao đổi khi cần hỏi lại,p1042 p1052 p1061 p1070 p1079,5
+142,day-142,everyday,family-check-ins,family-social-chat-01-02,Cập nhật chuyện gia đình và trải nghiệm,p390 p400 p433 p442 p475,5
+143,day-143,reflex,missed-information,reflex-clarity-03-01,Giữ cuộc trao đổi khi cần hỏi lại,p249 p259 p269 p279 p288,5
+144,day-144,everyday,office-help,workplace-help-01-02,Nhờ giúp xử lý một vấn đề,p368 p396 p408 p438 p450,5
+145,day-145,reflex,missed-information,reflex-clarity-03-02,Giữ cuộc trao đổi khi cần hỏi lại,p459 p469 p479 p489 p498,5
+146,day-146,everyday,urgent-assistance,health-support-01-02,Tìm hỗ trợ khi không khỏe,p404 p394 p445 p436 p488,5
+147,day-147,reflex,missed-information,reflex-clarity-03-03,Giữ cuộc trao đổi khi cần hỏi lại,p669 p679 p689 p699 p708,5
+148,day-148,everyday,food-ordering,food-order-01-02,Đặt món và chốt yêu cầu,p370 p413 p455 p496 p538,5
+149,day-149,reflex,missed-information,reflex-clarity-03-04,Giữ cuộc trao đổi khi cần hỏi lại,p879 p889 p899 p909 p918,5
+150,day-150,everyday,cafe-drinks,cafe-order-01-02,Gọi đồ uống theo ý mình,p371 p414 p457 p499 p540,5
+151,day-151,reflex,missed-information,reflex-clarity-03-05,Giữ cuộc trao đổi khi cần hỏi lại,p1089 p1099 p1109 p1119 p1128,5
+152,day-152,everyday,restaurant-seating,restaurant-seating-01-02,Tìm bàn phù hợp,p375 p415 p458 p500 p542,5
+153,day-153,reflex,ask-for-clarification,reflex-clarity-04-01,Giữ cuộc trao đổi khi cần hỏi lại,p297 p306 p316 p325 p335,5
+154,day-154,everyday,grocery-shopping,grocery-delivery-01-02,Mua và theo dõi đơn hàng tạp hóa,p377 p402 p417 p444 p461,5
+155,day-155,reflex,ask-for-clarification,reflex-clarity-04-02,Giữ cuộc trao đổi khi cần hỏi lại,p507 p516 p526 p535 p545,5
+156,day-156,everyday,clothes-shopping,clothing-purchase-01-02,Mua quần áo và kiểm tra khoản thanh toán,p379 p380 p421 p423 p463,5
+157,day-157,reflex,ask-for-clarification,reflex-clarity-04-03,Giữ cuộc trao đổi khi cần hỏi lại,p717 p726 p736 p745 p755,5
+158,day-158,everyday,asking-directions,travel-arrival-01-02,Di chuyển và xử lý yêu cầu khi đi xa,p383 p385 p387 p425 p427,5
+159,day-159,reflex,ask-for-clarification,reflex-clarity-04-04,Giữ cuộc trao đổi khi cần hỏi lại,p927 p936 p946 p955 p965,5
+160,day-160,everyday,making-plans,social-plans-01-02,Rủ bạn và chốt kế hoạch,p388 p432 p472 p515 p548,5
+161,day-161,reflex,ask-for-clarification,reflex-clarity-04-05,Giữ cuộc trao đổi khi cần hỏi lại,p1137 p1146 p1156 p1165 p1175,5
+162,day-162,everyday,appointments-times,appointments-01-02,Đặt hoặc đổi lịch hẹn,p398 p439 p481 p524 p550,5
+163,day-163,reflex,buy-time,reflex-clarity-tail-01,Giữ cuộc trao đổi khi cần hỏi lại,p344 p354,5
+164,day-164,everyday,casual-check-in,casual-small-talk-01-03,Bắt chuyện về cuối tuần và thời tiết,p571 p579 p615 p621 p657,5
+165,day-165,reflex,buy-time,reflex-clarity-tail-02,Giữ cuộc trao đổi khi cần hỏi lại,p554 p564,5
+166,day-166,everyday,family-check-ins,family-social-chat-01-03,Cập nhật chuyện gia đình và trải nghiệm,p600 p610 p643 p652 p685,5
+167,day-167,reflex,buy-time,reflex-clarity-tail-03,Giữ cuộc trao đổi khi cần hỏi lại,p764 p774,5
+168,day-168,everyday,office-help,workplace-help-01-03,Nhờ giúp xử lý một vấn đề,p578 p606 p618 p648 p660,5
+169,day-169,reflex,buy-time,reflex-clarity-tail-04,Giữ cuộc trao đổi khi cần hỏi lại,p974 p984,5
+170,day-170,everyday,urgent-assistance,health-support-01-03,Tìm hỗ trợ khi không khỏe,p614 p604 p655 p646 p698,5
+171,day-171,reflex,buy-time,reflex-clarity-tail-05,Giữ cuộc trao đổi khi cần hỏi lại,p1184 p1194,5
+172,day-172,everyday,food-ordering,food-order-01-03,Đặt món và chốt yêu cầu,p580 p623 p665 p706 p748,5
+173,day-173,everyday,cafe-drinks,cafe-order-01-03,Gọi đồ uống theo ý mình,p581 p624 p667 p709 p750,5
+174,day-174,everyday,restaurant-seating,restaurant-seating-01-03,Tìm bàn phù hợp,p585 p625 p668 p710 p752,5
+175,day-175,everyday,grocery-shopping,grocery-delivery-01-03,Mua và theo dõi đơn hàng tạp hóa,p587 p612 p627 p654 p671,5
+176,day-176,everyday,clothes-shopping,clothing-purchase-01-03,Mua quần áo và kiểm tra khoản thanh toán,p589 p590 p631 p633 p673,5
+177,day-177,everyday,asking-directions,travel-arrival-01-03,Di chuyển và xử lý yêu cầu khi đi xa,p593 p595 p597 p635 p637,5
+178,day-178,everyday,making-plans,social-plans-01-03,Rủ bạn và chốt kế hoạch,p598 p642 p682 p725 p758,5
+179,day-179,everyday,appointments-times,appointments-01-03,Đặt hoặc đổi lịch hẹn,p608 p649 p691 p734 p760,5
+180,day-180,everyday,casual-check-in,casual-small-talk-01-04,Bắt chuyện về cuối tuần và thời tiết,p781 p789 p825 p831 p867,5
+181,day-181,everyday,family-check-ins,family-social-chat-01-04,Cập nhật chuyện gia đình và trải nghiệm,p810 p820 p853 p862 p895,5
+182,day-182,everyday,office-help,workplace-help-01-04,Nhờ giúp xử lý một vấn đề,p788 p816 p828 p858 p870,5
+183,day-183,everyday,urgent-assistance,health-support-01-04,Tìm hỗ trợ khi không khỏe,p824 p814 p865 p856 p908,5
+184,day-184,everyday,food-ordering,food-order-01-04,Đặt món và chốt yêu cầu,p790 p833 p875 p916 p958,5
+185,day-185,everyday,cafe-drinks,cafe-order-01-04,Gọi đồ uống theo ý mình,p791 p834 p877 p919 p960,5
+186,day-186,everyday,restaurant-seating,restaurant-seating-01-04,Tìm bàn phù hợp,p795 p835 p878 p920 p962,5
+187,day-187,everyday,grocery-shopping,grocery-delivery-01-04,Mua và theo dõi đơn hàng tạp hóa,p797 p822 p837 p864 p881,5
+188,day-188,everyday,clothes-shopping,clothing-purchase-01-04,Mua quần áo và kiểm tra khoản thanh toán,p799 p800 p841 p843 p883,5
+189,day-189,everyday,asking-directions,travel-arrival-01-04,Di chuyển và xử lý yêu cầu khi đi xa,p803 p805 p807 p845 p847,5
+190,day-190,everyday,making-plans,social-plans-01-04,Rủ bạn và chốt kế hoạch,p808 p852 p892 p935 p968,5
+191,day-191,everyday,appointments-times,appointments-01-04,Đặt hoặc đổi lịch hẹn,p818 p859 p901 p944 p970,5
+192,day-192,everyday,casual-check-in,casual-small-talk-01-05,Bắt chuyện về cuối tuần và thời tiết,p991 p999 p1035 p1041 p1077,5
+193,day-193,everyday,family-check-ins,family-social-chat-01-05,Cập nhật chuyện gia đình và trải nghiệm,p1020 p1030 p1063 p1072 p1105,5
+194,day-194,everyday,office-help,workplace-help-01-05,Nhờ giúp xử lý một vấn đề,p998 p1026 p1038 p1068 p1080,5
+195,day-195,everyday,urgent-assistance,health-support-01-05,Tìm hỗ trợ khi không khỏe,p1034 p1024 p1075 p1066 p1118,5
+196,day-196,everyday,food-ordering,food-order-01-05,Đặt món và chốt yêu cầu,p1000 p1043 p1085 p1126 p1168,5
+197,day-197,everyday,cafe-drinks,cafe-order-01-05,Gọi đồ uống theo ý mình,p1001 p1044 p1087 p1129 p1170,5
+198,day-198,everyday,restaurant-seating,restaurant-seating-01-05,Tìm bàn phù hợp,p1005 p1045 p1088 p1130 p1172,5
+199,day-199,everyday,grocery-shopping,grocery-delivery-01-05,Mua và theo dõi đơn hàng tạp hóa,p1007 p1032 p1047 p1074 p1091,5
+200,day-200,everyday,clothes-shopping,clothing-purchase-01-05,Mua quần áo và kiểm tra khoản thanh toán,p1009 p1010 p1051 p1053 p1093,5
+201,day-201,everyday,asking-directions,travel-arrival-01-05,Di chuyển và xử lý yêu cầu khi đi xa,p1013 p1015 p1017 p1055 p1057,5
+202,day-202,everyday,making-plans,social-plans-01-05,Rủ bạn và chốt kế hoạch,p1018 p1062 p1102 p1145 p1178,5
+203,day-203,everyday,appointments-times,appointments-01-05,Đặt hoặc đổi lịch hẹn,p1028 p1069 p1111 p1154 p1180,5
+204,day-204,everyday,casual-conversation,casual-small-talk-02-01,Bắt chuyện về cuối tuần và thời tiết,p242 p280 p284 p322 p326,5
+205,day-205,everyday,opinions-reactions,family-social-chat-tail-01,Cập nhật chuyện gia đình và trải nghiệm,p273 p307 p315,5
+206,day-206,everyday,device-problems,workplace-help-02-01,Nhờ giúp xử lý một vấn đề,p270 p283 p312 p324 p348,5
+207,day-207,everyday,pharmacy-symptoms,health-support-tail-01,Tìm hỗ trợ khi không khỏe,p267 p320 p311 p343,5
+208,day-208,everyday,deliveries-tracking,grocery-delivery-tail-01,Mua và theo dõi đơn hàng tạp hóa,p276 p292 p317 p341,5
+209,day-209,everyday,payments-receipts,clothing-purchase-tail-01,Mua quần áo và kiểm tra khoản thanh toán,p256 p295 p296,5
+210,day-210,everyday,hotel-stays,travel-arrival-02-01,Di chuyển và xử lý yêu cầu khi đi xa,p219 p257 p258 p261 p299,5
+211,day-211,everyday,casual-conversation,casual-small-talk-02-02,Bắt chuyện về cuối tuần và thời tiết,p452 p490 p494 p532 p536,5
+212,day-212,everyday,opinions-reactions,family-social-chat-tail-02,Cập nhật chuyện gia đình và trải nghiệm,p483 p517 p525,5
+213,day-213,everyday,device-problems,workplace-help-02-02,Nhờ giúp xử lý một vấn đề,p480 p493 p522 p534 p558,5
+214,day-214,everyday,pharmacy-symptoms,health-support-tail-02,Tìm hỗ trợ khi không khỏe,p477 p530 p521 p553,5
+215,day-215,everyday,deliveries-tracking,grocery-delivery-tail-02,Mua và theo dõi đơn hàng tạp hóa,p486 p502 p527 p551,5
+216,day-216,everyday,payments-receipts,clothing-purchase-tail-02,Mua quần áo và kiểm tra khoản thanh toán,p466 p505 p506,5
+217,day-217,everyday,hotel-stays,travel-arrival-02-02,Di chuyển và xử lý yêu cầu khi đi xa,p429 p467 p468 p471 p509,5
+218,day-218,everyday,casual-conversation,casual-small-talk-02-03,Bắt chuyện về cuối tuần và thời tiết,p662 p700 p704 p742 p746,5
+219,day-219,everyday,opinions-reactions,family-social-chat-tail-03,Cập nhật chuyện gia đình và trải nghiệm,p693 p727 p735,5
+220,day-220,everyday,device-problems,workplace-help-02-03,Nhờ giúp xử lý một vấn đề,p690 p703 p732 p744 p768,5
+221,day-221,everyday,pharmacy-symptoms,health-support-tail-03,Tìm hỗ trợ khi không khỏe,p687 p740 p731 p763,5
+222,day-222,everyday,deliveries-tracking,grocery-delivery-tail-03,Mua và theo dõi đơn hàng tạp hóa,p696 p712 p737 p761,5
+223,day-223,everyday,payments-receipts,clothing-purchase-tail-03,Mua quần áo và kiểm tra khoản thanh toán,p676 p715 p716,5
+224,day-224,everyday,hotel-stays,travel-arrival-02-03,Di chuyển và xử lý yêu cầu khi đi xa,p639 p677 p678 p681 p719,5
+225,day-225,everyday,casual-conversation,casual-small-talk-02-04,Bắt chuyện về cuối tuần và thời tiết,p872 p910 p914 p952 p956,5
+226,day-226,everyday,opinions-reactions,family-social-chat-tail-04,Cập nhật chuyện gia đình và trải nghiệm,p903 p937 p945,5
+227,day-227,everyday,device-problems,workplace-help-02-04,Nhờ giúp xử lý một vấn đề,p900 p913 p942 p954 p978,5
+228,day-228,everyday,pharmacy-symptoms,health-support-tail-04,Tìm hỗ trợ khi không khỏe,p897 p950 p941 p973,5
+229,day-229,everyday,deliveries-tracking,grocery-delivery-tail-04,Mua và theo dõi đơn hàng tạp hóa,p906 p922 p947 p971,5
+230,day-230,everyday,payments-receipts,clothing-purchase-tail-04,Mua quần áo và kiểm tra khoản thanh toán,p886 p925 p926,5
+231,day-231,everyday,hotel-stays,travel-arrival-02-04,Di chuyển và xử lý yêu cầu khi đi xa,p849 p887 p888 p891 p929,5
+232,day-232,everyday,casual-conversation,casual-small-talk-02-05,Bắt chuyện về cuối tuần và thời tiết,p1082 p1120 p1124 p1162 p1166,5
+233,day-233,everyday,opinions-reactions,family-social-chat-tail-05,Cập nhật chuyện gia đình và trải nghiệm,p1113 p1147 p1155,5
+234,day-234,everyday,device-problems,workplace-help-02-05,Nhờ giúp xử lý một vấn đề,p1110 p1123 p1152 p1164 p1188,5
+235,day-235,everyday,pharmacy-symptoms,health-support-tail-05,Tìm hỗ trợ khi không khỏe,p1107 p1160 p1151 p1183,5
+236,day-236,everyday,deliveries-tracking,grocery-delivery-tail-05,Mua và theo dõi đơn hàng tạp hóa,p1116 p1132 p1157 p1181,5
+237,day-237,everyday,payments-receipts,clothing-purchase-tail-05,Mua quần áo và kiểm tra khoản thanh toán,p1096 p1135 p1136,5
+238,day-238,everyday,hotel-stays,travel-arrival-02-05,Di chuyển và xử lý yêu cầu khi đi xa,p1059 p1097 p1098 p1101 p1139,5
+239,day-239,everyday,casual-check-in,casual-small-talk-03-01,Bắt chuyện về cuối tuần và thời tiết,p345 p349 p351 p357 p358,5
+240,day-240,everyday,office-help,workplace-help-tail-01,Nhờ giúp xử lý một vấn đề,p353 p359,5
+241,day-241,everyday,ride-hailing,travel-arrival-tail-01,Di chuyển và xử lý yêu cầu khi đi xa,p301 p303 p334,5
+242,day-242,everyday,casual-check-in,casual-small-talk-03-02,Bắt chuyện về cuối tuần và thời tiết,p555 p559 p561 p567 p568,5
+243,day-243,everyday,office-help,workplace-help-tail-02,Nhờ giúp xử lý một vấn đề,p563 p569,5
+244,day-244,everyday,ride-hailing,travel-arrival-tail-02,Di chuyển và xử lý yêu cầu khi đi xa,p511 p513 p544,5
+245,day-245,everyday,casual-check-in,casual-small-talk-03-03,Bắt chuyện về cuối tuần và thời tiết,p765 p769 p771 p777 p778,5
+246,day-246,everyday,office-help,workplace-help-tail-03,Nhờ giúp xử lý một vấn đề,p773 p779,5
+247,day-247,everyday,ride-hailing,travel-arrival-tail-03,Di chuyển và xử lý yêu cầu khi đi xa,p721 p723 p754,5
+248,day-248,everyday,casual-check-in,casual-small-talk-03-04,Bắt chuyện về cuối tuần và thời tiết,p975 p979 p981 p987 p988,5
+249,day-249,everyday,office-help,workplace-help-tail-04,Nhờ giúp xử lý một vấn đề,p983 p989,5
+250,day-250,everyday,ride-hailing,travel-arrival-tail-04,Di chuyển và xử lý yêu cầu khi đi xa,p931 p933 p964,5
+251,day-251,everyday,casual-check-in,casual-small-talk-03-05,Bắt chuyện về cuối tuần và thời tiết,p1185 p1189 p1191 p1197 p1198,5
+252,day-252,everyday,office-help,workplace-help-tail-05,Nhờ giúp xử lý một vấn đề,p1193 p1199,5
+253,day-253,everyday,ride-hailing,travel-arrival-tail-05,Di chuyển và xử lý yêu cầu khi đi xa,p1141 p1143 p1174,5
+254,day-254,everyday,casual-conversation,casual-small-talk-tail-01,Bắt chuyện về cuối tuần và thời tiết,p360,5
+255,day-255,everyday,casual-conversation,casual-small-talk-tail-02,Bắt chuyện về cuối tuần và thời tiết,p570,5
+256,day-256,everyday,casual-conversation,casual-small-talk-tail-03,Bắt chuyện về cuối tuần và thời tiết,p780,5
+257,day-257,everyday,casual-conversation,casual-small-talk-tail-04,Bắt chuyện về cuối tuần và thời tiết,p990,5
+258,day-258,everyday,casual-conversation,casual-small-talk-tail-05,Bắt chuyện về cuối tuần và thời tiết,p1200,5

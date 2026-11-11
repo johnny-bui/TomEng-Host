@@ -1,0 +1,420 @@
+[
+  {
+    "id": "legacy-day-01",
+    "categoryId": "reflex",
+    "name": "Tự tin trong cuộc họp",
+    "description": "Khi thấy một rủi ro trong đề xuất.",
+    "count": 5,
+    "isLegacy": true
+  },
+  {
+    "id": "legacy-day-02",
+    "categoryId": "reflex",
+    "name": "Nghe rõ và hỏi lại",
+    "description": "Khi người nói quá nhanh.",
+    "count": 5,
+    "isLegacy": true
+  },
+  {
+    "id": "legacy-day-30",
+    "categoryId": "reflex",
+    "name": "Phản xạ hội thoại tự nhiên",
+    "description": "Khi muốn chuyển sang quan điểm của mình.",
+    "count": 5,
+    "isLegacy": true
+  },
+  {
+    "id": "casual-check-in",
+    "categoryId": "everyday",
+    "name": "Small talk đầu ngày",
+    "description": "Khi gặp đồng nghiệp trước giờ làm hoặc đầu cuộc họp.",
+    "count": 40,
+    "isLegacy": false
+  },
+  {
+    "id": "ask-for-clarification",
+    "categoryId": "reflex",
+    "name": "Hỏi lại khi chưa rõ",
+    "description": "Khi người nói trình bày nhanh hoặc yêu cầu chưa đủ rõ.",
+    "count": 40,
+    "isLegacy": false
+  },
+  {
+    "id": "office-help",
+    "categoryId": "everyday",
+    "name": "Nhờ giúp đỡ tự nhiên",
+    "description": "Khi cần hỏi thông tin hoặc nhờ đồng nghiệp một việc nhỏ.",
+    "count": 40,
+    "isLegacy": false
+  },
+  {
+    "id": "casual-conversation",
+    "categoryId": "everyday",
+    "name": "Hội thoại đời sống tự nhiên",
+    "description": "Khi trò chuyện ngắn mà không muốn phải dịch từng từ.",
+    "count": 40,
+    "isLegacy": false
+  },
+  {
+    "id": "food-ordering",
+    "categoryId": "everyday",
+    "name": "Gọi món tại quán",
+    "description": "Khi đặt đồ ăn trực tiếp hoặc mang đi.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "cafe-drinks",
+    "categoryId": "everyday",
+    "name": "Đồ uống và quán cà phê",
+    "description": "Khi mua đồ uống, đổi size hoặc đặt mang đi.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "missed-information",
+    "categoryId": "reflex",
+    "name": "Nghe thiếu chi tiết",
+    "description": "Khi nghe được đại ý nhưng bỏ lỡ thông tin cụ thể.",
+    "count": 35,
+    "isLegacy": false
+  },
+  {
+    "id": "restaurant-seating",
+    "categoryId": "everyday",
+    "name": "Đặt bàn và chọn chỗ",
+    "description": "Khi muốn xin bàn hoặc đổi chỗ ngồi.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "grocery-shopping",
+    "categoryId": "everyday",
+    "name": "Mua đồ ở siêu thị",
+    "description": "Khi tìm sản phẩm hoặc hỏi còn hàng.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "clothes-shopping",
+    "categoryId": "everyday",
+    "name": "Mua và đổi quần áo",
+    "description": "Khi thử đồ, hỏi size và đổi hàng.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "payments-receipts",
+    "categoryId": "everyday",
+    "name": "Thanh toán và hóa đơn",
+    "description": "Khi cần thanh toán hoặc hỏi về một khoản phí.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "asking-directions",
+    "categoryId": "everyday",
+    "name": "Hỏi đường và tìm địa điểm",
+    "description": "Khi đi đến chỗ lạ hoặc hỏi phương tiện.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "buy-time",
+    "categoryId": "reflex",
+    "name": "Xin thời gian suy nghĩ",
+    "description": "Khi bị hỏi bất ngờ và cần tránh trả lời vội.",
+    "count": 35,
+    "isLegacy": false
+  },
+  {
+    "id": "ride-hailing",
+    "categoryId": "everyday",
+    "name": "Đi taxi và gọi xe",
+    "description": "Khi hướng dẫn tài xế điểm đón, điểm trả.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "hotel-stays",
+    "categoryId": "everyday",
+    "name": "Lưu trú và khách sạn",
+    "description": "Khi có yêu cầu ở khách sạn hoặc nơi lưu trú.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "making-plans",
+    "categoryId": "everyday",
+    "name": "Rủ rê và hẹn gặp",
+    "description": "Khi rủ bạn bè, đồng nghiệp gặp gỡ ngoài giờ.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "family-check-ins",
+    "categoryId": "everyday",
+    "name": "Gia đình và thăm hỏi",
+    "description": "Khi hỏi thăm gia đình, bạn bè và người thân.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "pharmacy-symptoms",
+    "categoryId": "everyday",
+    "name": "Triệu chứng và nhà thuốc",
+    "description": "Khi nói về triệu chứng thông thường hoặc hỏi nhà thuốc.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "device-problems",
+    "categoryId": "everyday",
+    "name": "Sự cố thiết bị hằng ngày",
+    "description": "Khi gặp lỗi điện thoại, Wi-Fi, máy in hoặc phần mềm.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "appointments-times",
+    "categoryId": "everyday",
+    "name": "Hẹn lịch và đổi lịch",
+    "description": "Khi xác nhận, hoãn hoặc đổi một cuộc hẹn.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "opinions-reactions",
+    "categoryId": "everyday",
+    "name": "Cảm nhận và phản hồi tự nhiên",
+    "description": "Khi hỏi nhận xét, chia sẻ cảm xúc hoặc giới thiệu thứ đã trải nghiệm.",
+    "count": 20,
+    "isLegacy": false
+  },
+  {
+    "id": "deliveries-tracking",
+    "categoryId": "everyday",
+    "name": "Giao hàng và đơn mua sắm",
+    "description": "Khi nhận hàng bị trễ, cần tìm gói hàng hoặc đổi địa điểm nhận.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "urgent-assistance",
+    "categoryId": "everyday",
+    "name": "Nhờ trợ giúp khi cần gấp",
+    "description": "Khi cần nhờ người khác tìm hoặc liên hệ dịch vụ hỗ trợ.",
+    "count": 25,
+    "isLegacy": false
+  },
+  {
+    "id": "rooms-flow-1",
+    "categoryId": "rooms",
+    "name": "Tìm phòng và kiểm tra ngày",
+    "description": "Tìm hiểu nhu cầu, báo lựa chọn phù hợp và chốt bước tiếp theo về phòng.",
+    "count": 25
+  },
+  {
+    "id": "rooms-flow-2",
+    "categoryId": "rooms",
+    "name": "So sánh giá và loại phòng",
+    "description": "Tìm hiểu nhu cầu, báo lựa chọn phù hợp và chốt bước tiếp theo về phòng.",
+    "count": 15
+  },
+  {
+    "id": "rooms-flow-3",
+    "categoryId": "rooms",
+    "name": "Xác nhận tiện nghi và xem phòng",
+    "description": "Tìm hiểu nhu cầu, báo lựa chọn phù hợp và chốt bước tiếp theo về phòng.",
+    "count": 20
+  },
+  {
+    "id": "booking-flow-1",
+    "categoryId": "booking",
+    "name": "Xác nhận đặt phòng",
+    "description": "Xác nhận chi tiết đặt phòng, xử lý thay đổi và thông báo rõ bước kế tiếp.",
+    "count": 20
+  },
+  {
+    "id": "booking-flow-2",
+    "categoryId": "booking",
+    "name": "Đổi ngày hoặc chi tiết",
+    "description": "Xác nhận chi tiết đặt phòng, xử lý thay đổi và thông báo rõ bước kế tiếp.",
+    "count": 20
+  },
+  {
+    "id": "booking-flow-3",
+    "categoryId": "booking",
+    "name": "Ghi nhận yêu cầu đặc biệt",
+    "description": "Xác nhận chi tiết đặt phòng, xử lý thay đổi và thông báo rõ bước kế tiếp.",
+    "count": 20
+  },
+  {
+    "id": "checkin-flow-1",
+    "categoryId": "checkin",
+    "name": "Hướng dẫn vào phòng",
+    "description": "Hướng dẫn khách đến đúng phòng, vào tòa nhà và biết cách liên hệ hỗ trợ.",
+    "count": 25
+  },
+  {
+    "id": "checkin-flow-2",
+    "categoryId": "checkin",
+    "name": "Đến sớm hoặc muộn",
+    "description": "Hướng dẫn khách đến đúng phòng, vào tòa nhà và biết cách liên hệ hỗ trợ.",
+    "count": 25
+  },
+  {
+    "id": "checkin-flow-3",
+    "categoryId": "checkin",
+    "name": "Trả phòng gọn gàng",
+    "description": "Hướng dẫn khách đến đúng phòng, vào tòa nhà và biết cách liên hệ hỗ trợ.",
+    "count": 10
+  },
+  {
+    "id": "housekeeping-flow-1",
+    "categoryId": "housekeeping",
+    "name": "Sắp lịch dọn phòng",
+    "description": "Ghi nhận yêu cầu, thống nhất thời gian và xác nhận khi nhân viên hoàn tất.",
+    "count": 20
+  },
+  {
+    "id": "housekeeping-flow-2",
+    "categoryId": "housekeeping",
+    "name": "Bổ sung đồ dùng",
+    "description": "Ghi nhận yêu cầu, thống nhất thời gian và xác nhận khi nhân viên hoàn tất.",
+    "count": 30
+  },
+  {
+    "id": "housekeeping-flow-3",
+    "categoryId": "housekeeping",
+    "name": "Giặt ủi và đồ vải",
+    "description": "Ghi nhận yêu cầu, thống nhất thời gian và xác nhận khi nhân viên hoàn tất.",
+    "count": 5
+  },
+  {
+    "id": "maintenance-flow-1",
+    "categoryId": "maintenance",
+    "name": "Tiếp nhận và kiểm tra lỗi",
+    "description": "Làm rõ hiện trạng, sắp xếp người kiểm tra và cập nhật sau khi xác định nguyên nhân.",
+    "count": 25
+  },
+  {
+    "id": "maintenance-flow-2",
+    "categoryId": "maintenance",
+    "name": "Hẹn kỹ thuật viên",
+    "description": "Làm rõ hiện trạng, sắp xếp người kiểm tra và cập nhật sau khi xác định nguyên nhân.",
+    "count": 10
+  },
+  {
+    "id": "maintenance-flow-3",
+    "categoryId": "maintenance",
+    "name": "Sự cố cần xử lý ngay",
+    "description": "Làm rõ hiện trạng, sắp xếp người kiểm tra và cập nhật sau khi xác định nguyên nhân.",
+    "count": 25
+  },
+  {
+    "id": "complaints-flow-1",
+    "categoryId": "complaints",
+    "name": "Lắng nghe và xin lỗi",
+    "description": "Lắng nghe tác động, đưa phương án khả thi và chủ động theo dõi kết quả.",
+    "count": 25
+  },
+  {
+    "id": "complaints-flow-2",
+    "categoryId": "complaints",
+    "name": "Đưa phương án phù hợp",
+    "description": "Lắng nghe tác động, đưa phương án khả thi và chủ động theo dõi kết quả.",
+    "count": 30
+  },
+  {
+    "id": "complaints-flow-3",
+    "categoryId": "complaints",
+    "name": "Cập nhật đến khi xử lý xong",
+    "description": "Lắng nghe tác động, đưa phương án khả thi và chủ động theo dõi kết quả.",
+    "count": 5
+  },
+  {
+    "id": "billing-flow-1",
+    "categoryId": "billing",
+    "name": "Nhắc khoản đến hạn",
+    "description": "Giải thích khoản tiền và thời hạn rõ ràng, rồi xác nhận chứng từ hoặc bước xử lý.",
+    "count": 25
+  },
+  {
+    "id": "billing-flow-3",
+    "categoryId": "billing",
+    "name": "Gia hạn hoặc hoàn cọc",
+    "description": "Giải thích khoản tiền và thời hạn rõ ràng, rồi xác nhận chứng từ hoặc bước xử lý.",
+    "count": 20
+  },
+  {
+    "id": "billing-flow-2",
+    "categoryId": "billing",
+    "name": "Gửi hóa đơn và biên nhận",
+    "description": "Giải thích khoản tiền và thời hạn rõ ràng, rồi xác nhận chứng từ hoặc bước xử lý.",
+    "count": 10
+  },
+  {
+    "id": "safety-flow-1",
+    "categoryId": "safety",
+    "name": "Báo bảo vệ hoặc xử lý tiếng ồn",
+    "description": "Xác định vị trí, ưu tiên an toàn và điều phối đúng người hỗ trợ.",
+    "count": 15
+  },
+  {
+    "id": "safety-flow-2",
+    "categoryId": "safety",
+    "name": "Hỗ trợ mất chìa khóa và khách thăm",
+    "description": "Xác định vị trí, ưu tiên an toàn và điều phối đúng người hỗ trợ.",
+    "count": 25
+  },
+  {
+    "id": "safety-flow-3",
+    "categoryId": "safety",
+    "name": "Hướng dẫn khi khẩn cấp",
+    "description": "Xác định vị trí, ưu tiên an toàn và điều phối đúng người hỗ trợ.",
+    "count": 15
+  },
+  {
+    "id": "team-flow-1",
+    "categoryId": "team",
+    "name": "Phân công và xác nhận việc",
+    "description": "Giao việc nội bộ có người phụ trách, mốc thời gian và cách xác nhận hoàn tất.",
+    "count": 25
+  },
+  {
+    "id": "team-flow-2",
+    "categoryId": "team",
+    "name": "Điều phối kỹ thuật viên",
+    "description": "Giao việc nội bộ có người phụ trách, mốc thời gian và cách xác nhận hoàn tất.",
+    "count": 20
+  },
+  {
+    "id": "team-flow-3",
+    "categoryId": "team",
+    "name": "Bàn giao ca và cập nhật",
+    "description": "Giao việc nội bộ có người phụ trách, mốc thời gian và cách xác nhận hoàn tất.",
+    "count": 10
+  },
+  {
+    "id": "messaging-flow-1",
+    "categoryId": "messaging",
+    "name": "Trả lời cuộc gọi",
+    "description": "Trả lời ngắn gọn qua kênh phù hợp và giữ liên lạc đến khi yêu cầu được xử lý.",
+    "count": 20
+  },
+  {
+    "id": "messaging-flow-2",
+    "categoryId": "messaging",
+    "name": "Nhắn cập nhật ngắn gọn",
+    "description": "Trả lời ngắn gọn qua kênh phù hợp và giữ liên lạc đến khi yêu cầu được xử lý.",
+    "count": 20
+  },
+  {
+    "id": "messaging-flow-3",
+    "categoryId": "messaging",
+    "name": "Chào hỏi và hỏi thăm",
+    "description": "Trả lời ngắn gọn qua kênh phù hợp và giữ liên lạc đến khi yêu cầu được xử lý.",
+    "count": 15
+  }
+]
