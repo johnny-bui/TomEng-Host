@@ -148,8 +148,7 @@ assert.match(libHtml,/class="category-tab selected" data-filter="everyday"/,'Lib
 assert.equal((libHtml.match(/class="subcategory-group"/g)||[]).length,1,'only the chosen category child group is shown');
 assert.ok(libHtml.indexOf('class="library-results-toolbar"')>libHtml.indexOf('class="category-filter"'),'view-mode control belongs to card results');
 assert.ok(libHtml.indexOf('class="view-switch"')>libHtml.indexOf('class="library-results-toolbar"'),'segmented display selector renders with cards');
-assert.match(libHtml,/class="import-short">Nhập<\/span>/,'mobile import has compact caption');
-assert.match(libHtml,/data-action="export"/,'backup remains available');
+assert.doesNotMatch(libHtml, /<section class="library-toolbar"/, 'Library has no export/import toolbar');
 lib.click({ filter:'booking' });
 libHtml=lib.html();
 assert.match(libHtml,/class="category-tab selected" data-filter="booking"/,'changing category selects Booking');
