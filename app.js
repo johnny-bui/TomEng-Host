@@ -488,7 +488,7 @@
     const target=event.target.closest('[data-page],[data-action],[data-track],[data-category],[data-filter],[data-subfilter],[data-view-mode],[data-open],[data-rating],[data-new-rating],[data-mastery-rating],[data-intent],[data-family],[data-mark],[data-due-reveal],[data-due-rating]');if(!target)return;
     if(target.dataset.page)return go(target.dataset.page);
     if(target.dataset.track){const s=store.activeSession,untouched=s&&s.mode!=='mastery'&&s.reviewIndex===0&&s.learnIndex===0&&s.recallIndex===0&&!s.reviewDone?.length&&!s.learnedViewed?.length&&!s.recallDone?.length;store.track=target.dataset.track;if(untouched){store.activeSession=null;ensureSession();}else if(s)toast('Giữ nguyên phiên đang học; track mới áp dụng khi mở trang tiếp theo.');save();return render();}
-    if(target.dataset.category){ui.libraryLimit=60;ui.category=target.dataset.category;ui.subcategory='all';return go('library');}
+    if(target.dataset.category){ui.libraryLimit=60;ui.query='';ui.category=target.dataset.category;ui.subcategory='all';return go('library');}
     if(target.dataset.filter){ui.libraryLimit=60;ui.query='';ui.category=target.dataset.filter;ui.subcategory='all';return render();}
     if(target.dataset.subfilter){ui.libraryLimit=60;ui.subcategory=target.dataset.subfilter;return render();}
     if(target.dataset.viewMode){ui.libraryLimit=60;ui.patternView=target.dataset.viewMode==='patterns';return render();}
